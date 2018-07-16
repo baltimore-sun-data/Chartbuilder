@@ -140,6 +140,14 @@ svg
 		stroke $color-chart-zeroline
 		shape-rendering crispEdges
 
+.grid-lines.horizontal-grid-lines
+		line.tick
+			stroke-dasharray 1,5px
+			stroke-linecap round
+		line.zero
+			stroke-dasharray none
+
+
 .concealer-label
 	text
 		fill $color-chart-axis-text
